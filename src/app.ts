@@ -14,7 +14,7 @@ import formulario from "./routes/enviar-formulario"
 const app = express();
 const port = process.env.PORT || 8080;
 
-app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(cors({ origin: "https://cv.tets.site", credentials: true }));
 
 app.use(bodyParser.json());
 app.use(cookieParser());
